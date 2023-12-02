@@ -1,0 +1,140 @@
+/* table.component.css */
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: #f2f2f2;
+}
+/* table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    border: 1px solid #ccc;
+  } */
+  
+  /* Header styling */
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  /* Editable cell styling */
+  td[contentEditable="true"] {
+    background-color: #fff;
+    cursor: text;
+  }
+  
+  /* Pagination styling */
+  div {
+    margin-top: 10px;
+  }
+  
+  button {
+    padding: 4px 8px;
+    margin-right: 4px;
+    background-color: #f2f2f2;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button.current-page {
+    background-color: #ddd;
+  }
+  
+  /* Delete selected button styling */
+  button.delete-selected {
+    position: absolute;
+    top: 10px; /* Adjust the top spacing as needed */
+    right: 10px; /* Adjust the right spacing as needed */
+    padding: 8px 12px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  button.delete-selected:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Optional styling */
+  button.edit,
+  button.delete,
+  button.save {
+    padding: 4px 8px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button.edit:hover,
+  button.delete:hover,
+  button.save:hover {
+    background-color: #45a049;
+  }
+  /* your-component.css */
+.search-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  /* border-radius: 5px; */
+  margin-right: 5px;
+}
+
+.search-button {
+  padding: 8px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.search-input {
+  width: 200px; /* Adjust the width as needed */
+}
+
+.search-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.selected-row {
+  background-color: #f0f0f0; /* Adjust the color as needed */
+}
+
+.container {
+  
+  align-items: center;
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.delete-selected {
+  background-color: #ff6347; /* Adjust the color as needed */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-selected i {
+  margin-right: 5px; /* Adjust the margin as needed */
+}
